@@ -27,6 +27,7 @@ $(function(){
 
             //Title
             $('.card-title').text(response.name);
+            $('.nameCity').text(response.name);
 
             // Description 
             $('.card-title').text(response.weather[0].description);
