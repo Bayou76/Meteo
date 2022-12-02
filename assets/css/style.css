@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(53, 53, 153);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+    
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: xxx-large;
+    text-shadow: 1px 1px rgb(53, 53, 153);
+    
+}
+
+*, ::after, ::before {
+	box-sizing: border-box;
+	width: 90%;
+	margin: auto;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.card{
+    margin-top: 25px ;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.card-body{
+    background-color: beige;
+    border-radius: 5px;
+    border: 2px solid black;
+}
